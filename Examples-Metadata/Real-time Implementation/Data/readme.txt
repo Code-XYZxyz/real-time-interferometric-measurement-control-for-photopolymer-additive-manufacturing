@@ -1,0 +1,7 @@
+The real-time acquired video (ICM_20160901_161239.avi) and real-time logged metadata (RT_ECPL_ICM_20160901_161239_H225_W285.mat) are in the folder "LabData". 
+
+For detailed interpretation of the results in the folder "ResultsData", please refer to the following publication. This example is referred as "Group 1 Sample 06" in Chapter 9 and Appendix B in the reference disseratation (1). The corresponding results are also reported in a journal paper(2).
+
+Reference:
+(1) X. Zhao, ¡°Process Measurement and Control for Exposure Controlled Projection Lithography¡±. Ph.D. Dissertation, Mechanical Engineering, Georgia Institute of Technology, Atlanta, USA, 2017. Available on https://smartech.gatech.edu/handle/1853/58294
+(2) X. Zhao and D. Rosen, ¡°Parallel computing enabled real-time interferometric measurement and feedback control for a photopolymer based lithographic additive manufacturing process¡±, Mechatronics, Special Issue: Mechatronics and Additive Manufacturing. (July 2017: in review)
