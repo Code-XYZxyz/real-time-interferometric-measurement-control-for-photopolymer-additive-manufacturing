@@ -1,14 +1,27 @@
 (1) In the subfolder “Demo”, two demo videos show how to use the software to analyze off line the interferometric video and associated data for measuring the photocuring process in terms of cured thickness. Please note that two different samples are used in the videos, respectively. A smaller curing part experiment is used to demonstrate the software’s capability of measuring multiple pixels in a full field.
-The demo video “OfflineICMM_SinglePixel_Microscope_Sample040711.mp4” shows single pixel measurement off line. 
-The demo video “OfflineICMM_FF_AllProcess_Sample040511.mp4” shows multiple pixel measurement off line.
+
+The demo video “OfflineICMM_SinglePixel_Microscope_Sample040711.mp4” shows single pixel measurement off line. Its download link is: https://www.dropbox.com/s/9djkrn7c7r1ungd/OfflineICMM_SinglePixel_Microscope_Sample040711.mp4?dl=0
+
+The demo video “OfflineICMM_FF_AllProcess_Sample040511.mp4” shows multiple pixel measurement off line. Its download link is: https://www.dropbox.com/s/xcjckph0f4ojkl4/OfflineICMM_FF_AllProcess_Sample040511.mp4?dl=0
+
 Please note that the corresponding experiment design and results are detailed in the authors’ dissertation Chapter 8 [Reference 1].
 
 (2) In the subfolder “Data”, an example with real-time meta data and analysis results is provided.
-The analyzed video was acquired in a real-time experiment of the ECPL process. This offline implementation utilizes the real-time acquired video (Sample040711_EI25_ICM_Video_2016.avi) and real-time logged metadata (IMAQ_20160407_145132.mat) are in the folder "LabData". 
+The analyzed video was acquired in a real-time experiment of the ECPL process. This offline implementation utilizes the real-time acquired video (Sample040711_EI25_ICM_Video_2016.avi) and real-time logged metadata (IMAQ_20160407_145132.mat) are supposed to be located in the folder "LabData". However, due to the limited space, external download links are accessible for these files.
+
+Download link of the interferometric video file (Sample040711_EI25_ICM_Video_2016.avi):
+https://www.dropbox.com/s/ajx6cd43ffoqo4k/Sample040711_EI25_ICM_Video_2016.avi?dl=0
+
+Download link of the image acquisition file (IMAQ_20160407_145132.mat):
+https://www.dropbox.com/s/arlkmbhk7o2spiu/IMAQ_20160407_145132.mat?dl=0
+
+
 To implement this example, a physical system of the same setup as in the authors’ lab is NOT required. One could just import the video (Sample040711_EI25_ICM_Video_2016.avi) and “IMAQ_20160407_145132.mat” file in the sub-folder of “Data”, and specify the ROI as per the “ROI_FF.png” in the MATLAB code “pb_SetROI_Callback.m”, then run the software to measure the ROI’s pixel(s)’ cured heights. If interested, one can refer to the results in the folder “ResultsData”.
-For detailed interpretation of the results in the folder "ResultsData", please refer to the following publications. This example is referred as "Validation Group #2 Experiment #4" in Chapter 8 and Appendix A in the reference disseratation [1]. The corresponding results are also reported in a journal paper [2].
+
+For detailed interpretation of the results in the folder "ResultsData", please refer to the following publications. This example is referred as "Validation Group #2 Experiment #4" in Chapter 8 and Appendix A in the reference dissertation [1]. The corresponding results are also reported in a journal paper [2].
+
+
 
 Reference:
 [1] X. Zhao, “Process Measurement and Control for Exposure Controlled Projection Lithography”. Ph.D. Dissertation, Mechanical Engineering, Georgia Institute of Technology, Atlanta, USA, 2017. Available on https://smartech.gatech.edu/handle/1853/58294
 [2] X. Zhao and D. Rosen, “Experimental validation and characterization of a real-time metrology system for photopolymerization based stereolithographic additive manufacturing process”, International Journal of Advanced Manufacturing Technology, Dec 2016. doi:10.1007/s00170-016-9844-1. (http://dx.doi.org/10.1007/s00170-016-9844-1)
-
