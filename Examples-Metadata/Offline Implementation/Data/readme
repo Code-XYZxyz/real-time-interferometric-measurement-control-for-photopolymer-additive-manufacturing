@@ -7,7 +7,9 @@ Download link of the image acquisition file (IMAQ_20160407_145132.mat):
 https://www.dropbox.com/s/arlkmbhk7o2spiu/IMAQ_20160407_145132.mat?dl=0
 
 
-To implement this example, a physical system of the same setup as in the authors’ lab is NOT required. One could just import the video (Sample040711_EI25_ICM_Video_2016.avi) and “IMAQ_20160407_145132.mat” file in the sub-folder of “Data”, and specify the ROI as per the “ROI_FF.png” in the MATLAB code “pb_SetROI_Callback.m”, then run the software to measure the ROI’s pixel(s)’ cured heights. If interested, one can refer to the results in the folder “ResultsData”.
+To implement this example, a physical system of the same setup as in the authors’ lab is NOT required. One could just import the video (Sample040711_EI25_ICM_Video_2016.avi) and “IMAQ_20160407_145132.mat” file in the sub-folder of “Data”, and specify the ROI as per the “ROI_FF.png” in the MATLAB code “pb_SetROI_Callback.m”, then run the software to measure the ROI’s pixel(s)’ cured heights. If interested, one can refer to the results in the folder “ResultsData”. 
+The video “Sample040711_EI25_SignalResults_2016.avi” displays the measurement results for all the pixels in the ROI, and the download link is: https://www.dropbox.com/s/mmmy19nh45m1et4/Sample040711_EI25_SignalResults_2016.avi?dl=0
+
 
 For detailed interpretation of the results in the folder "ResultsData", please refer to the following publications. This example is referred as "Validation Group #2 Experiment #4" in Chapter 8 and Appendix A in the reference dissertation [1]. The corresponding results are also reported in a journal paper [2].
 
@@ -16,3 +18,4 @@ For detailed interpretation of the results in the folder "ResultsData", please r
 Reference:
 [1] X. Zhao, “Process Measurement and Control for Exposure Controlled Projection Lithography”. Ph.D. Dissertation, Mechanical Engineering, Georgia Institute of Technology, Atlanta, USA, 2017. Available on https://smartech.gatech.edu/handle/1853/58294
 [2] X. Zhao and D. Rosen, “Experimental validation and characterization of a real-time metrology system for photopolymerization based stereolithographic additive manufacturing process”, International Journal of Advanced Manufacturing Technology, Dec 2016. doi:10.1007/s00170-016-9844-1. (http://dx.doi.org/10.1007/s00170-016-9844-1)
+
