@@ -1,12 +1,19 @@
-The real-time acquired video (ICM_20160901_161239.avi) and real-time logged metadata (RT_ECPL_ICM_20160901_161239_H225_W285.mat) are supposed to be located in the folder "LabData"; however, due to the space limit, external links for downloading these files are provided as below. In the experiment, only one pixel (Height: 225; Width 285) in the sample was monitored online due to limited computation resource.
+The real-time acquired video (ICM_20160901_161239.avi) and real-time logged metadata (RT_ECPL_ICM_20160901_161239_H225_W285.mat) are supposed to be located in the folder "LabData"; however, due to the space limit, external links for downloading these files are provided as below. 
+
 Download link:
 (1) Download link of the real-time acquired video (ICM_20160901_161239.avi):
 https://www.dropbox.com/s/3yjbeq3p2y8qq95/ICM_20160901_161239.avi?dl=0
 (2) Download link of real-time logged metadata (RT_ECPL_ICM_20160901_161239_H225_W285.mat):
 https://www.dropbox.com/s/26xyix943o6qbio/RT_ECPL_ICM_20160901_161239_H225_W285.mat?dl=0
 
+In the real-time experiment, only one pixel (Height: 225; Width 285) in the sample was monitored online due to limited computation resource. The real-time monitored signal of the pixel’s grayscale is as shown in the plot “Group1S06_RT_Grayscale_Px_225_285.png”. The real-time measurement results are presented in “AllPointEstHeights_mean.png” and “AllPointEstHeights_zExposed_mean.png”.
+
+
+
 To implement this example for offline analysis, a physical system of the same setup as in the authors’ lab is NOT required. One could just simulate the real-time process by importing the video (ICM_20160901_161239.avi) and “RT_ECPL_ICM_20160901_161239_H225_W285.mat” file in the sub-folder of “Data”, and specify the ROI as per the “ROI_FF.png” in the MATLAB code “pb_SetROI_Callback.m”, then run the software to measure the ROI’s pixel(s)’ cured heights. If interested, one can refer to the results in the folder “ResultsData”.
 For detailed interpretation of the results in the folder "ResultsData", please refer to the following publication. This example is referred as "Group 1 Sample 06" in Chapter 9 and Appendix B in the reference dissertation [Reference 1]. The corresponding results are also reported in a journal paper [Reference 2].
+
+
 
 Reference:
 [1] X. Zhao, “Process Measurement and Control for Exposure Controlled Projection Lithography”. Ph.D. Dissertation, Mechanical Engineering, Georgia Institute of Technology, Atlanta, USA, 2017. Available on https://smartech.gatech.edu/handle/1853/58294
