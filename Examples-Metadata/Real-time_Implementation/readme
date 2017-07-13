@@ -1,8 +1,10 @@
 (1) In the subfolder “Demo”, a demo video “RT MeasCtrl ECPL_20160831_V2.mov” shows how to conduct real time measurement and control of the photopolymer additive manufacturing process with the physical system. 
-Please note that the corresponding experiment design and results are detailed in the authors’ publication [Reference 1]. To implement this example, a physical system of the same setup as in the authors’ lab is required. One could also adapt the codes and parameters accordingly to the user’s specific photopolymerization based additive manufacturing or 3D printing machine.
+Please note that the corresponding experiment design and results are detailed in the authors’ dissertation Chapter 9 [Reference 1]. 
+To implement this example, a physical system of the same setup as in the authors’ lab is required. One could also adapt the codes and parameters accordingly to the user’s specific photopolymerization based additive manufacturing or 3D printing machine.
 
 (2) In the subfolder “Data”, an example with real-time meta data and analysis results is provided.
-The real-time acquired video (ICM_20160901_161239.avi) and real-time logged metadata (RT_ECPL_ICM_20160901_161239_H225_W285.mat) are in the folder "LabData". 
+The real-time acquired video (ICM_20160901_161239.avi) and real-time logged metadata (RT_ECPL_ICM_20160901_161239_H225_W285.mat) are in the folder "LabData". In the experiment, only one pixel (Height: 225; Width 285) in the sample was monitored online due to limited computation resource.
+To implement this example for offline analysis, a physical system of the same setup as in the authors’ lab is NOT required. One could just simulate the real-time process by importing the video (ICM_20160901_161239.avi) and “RT_ECPL_ICM_20160901_161239_H225_W285.mat” file in the sub-folder of “Data”, and specify the ROI as per the “ROI_FF.png” in the MATLAB code “pb_SetROI_Callback.m”, then run the software to measure the ROI’s pixel(s)’ cured heights. If interested, one can refer to the results in the folder “ResultsData”.
 For detailed interpretation of the results in the folder "ResultsData", please refer to the following publication. This example is referred as "Group 1 Sample 06" in Chapter 9 and Appendix B in the reference dissertation [Reference 1]. The corresponding results are also reported in a journal paper [Reference 2].
 
 Reference:
