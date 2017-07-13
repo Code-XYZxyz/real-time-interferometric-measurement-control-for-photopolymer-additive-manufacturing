@@ -1,6 +1,10 @@
-A demo video “RT MeasCtrl ECPL_20160831_V2.mov” shows how to conduct real time measurement and control of the photopolymer additive manufacturing process with the physical system. 
+A demo video “RT MeasCtrl ECPL_20160831_V2.mov” shows how to conduct real time measurement and control of the photopolymer additive manufacturing process with the physical system.
+
 Please note that the corresponding experiment design and results are detailed in the authors’ dissertation Chapter 9 [Reference 1]. 
+
 To implement this example, a physical system of the same setup as in the authors’ lab is required. One could also adapt the codes and parameters accordingly to the user’s specific photopolymerization based additive manufacturing or 3D printing machine.
+
+Download link of the Demo Video: https://www.dropbox.com/s/hsbw9dnm6y0whgz/RT%20MeasCtrl%20ECPL_20160831_V2.mov?dl=0
 
 Reference:
 [1] X. Zhao, “Process Measurement and Control for Exposure Controlled Projection Lithography”. Ph.D. Dissertation, Mechanical Engineering, Georgia Institute of Technology, Atlanta, USA, 2017. Available on https://smartech.gatech.edu/handle/1853/58294
