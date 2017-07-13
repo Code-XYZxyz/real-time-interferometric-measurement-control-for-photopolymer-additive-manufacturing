@@ -1,0 +1,8 @@
+The analyzed video was acquired in a real-time experiment of the ECPL process. This offline implementation utilizes the real-time acquired video (Sample040711_EI25_ICM_Video_2016.avi) and real-time logged metadata (IMAQ_20160407_145132.mat) are supposed to be located in the folder "LabData". However, due to the limited space, external download links are accessible for these files.
+
+Download link of the interferometric video file (Sample040711_EI25_ICM_Video_2016.avi):
+https://www.dropbox.com/s/ajx6cd43ffoqo4k/Sample040711_EI25_ICM_Video_2016.avi?dl=0
+
+Download link of the image acquisition file (IMAQ_20160407_145132.mat):
+https://www.dropbox.com/s/arlkmbhk7o2spiu/IMAQ_20160407_145132.mat?dl=0
+
