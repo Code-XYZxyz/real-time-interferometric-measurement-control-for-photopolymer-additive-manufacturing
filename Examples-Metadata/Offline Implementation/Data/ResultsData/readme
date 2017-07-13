@@ -3,6 +3,8 @@
 (2) The metadata file “Offline_ICM_20160723_184739_H130_W220_FF.mat” presents a full record of the analysis and results.
 
 (3) The video “Sample040711_EI25_SignalResults_2016.avi” displays the measurement results for all the pixels in the ROI.
+       Download link: https://www.dropbox.com/s/mmmy19nh45m1et4/Sample040711_EI25_SignalResults_2016.avi?dl=0
+
 
 (4) Notes:
 To implement this example, a physical system of the same setup as in the authors’ lab is NOT required. One could just import the video (Sample040711_EI25_ICM_Video_2016.avi) and “IMAQ_20160407_145132.mat” file in the sub-folder of “Data”, and specify the ROI as per the “ROI_FF.png” in the MATLAB code “pb_SetROI_Callback.m”, then run the software to measure the ROI’s pixel(s)’ cured heights. If interested, one can refer to the results in the folder “ResultsData”.
