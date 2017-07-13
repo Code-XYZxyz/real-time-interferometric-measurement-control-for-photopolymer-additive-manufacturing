@@ -1,0 +1,3 @@
+(1) Results from measuring offline the full field defined as shown in the picture (ROI_FF.png) are available in “AllPointEstHeights_2D_Final.png” and “AllPointEstHeights_3D_Final.png”. 
+
+(2) The real-time computer and software performance is reflected in the latency plot "Group1S06_RT_Latency_Delays_Plot.png". The latency induces delays in measurement and control as shown in the plot “Group1S06_RT_Meas_Ctrl_Delay_Plot.png”.
