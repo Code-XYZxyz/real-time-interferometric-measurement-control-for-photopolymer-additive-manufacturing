@@ -1,0 +1,9 @@
+The real-time acquired video (ICM_20160901_161239.avi) and real-time logged metadata (RT_ECPL_ICM_20160901_161239_H225_W285.mat) are supposed to be located in the folder "LabData"; however, due to the space limit, external links for downloading these files are provided as below. 
+
+Download link:
+(1) Download link of the real-time acquired video (ICM_20160901_161239.avi):
+https://www.dropbox.com/s/3yjbeq3p2y8qq95/ICM_20160901_161239.avi?dl=0
+(2) Download link of real-time logged metadata (RT_ECPL_ICM_20160901_161239_H225_W285.mat):
+https://www.dropbox.com/s/26xyix943o6qbio/RT_ECPL_ICM_20160901_161239_H225_W285.mat?dl=0
+
+In the experiment, only one pixel (Height: 225; Width 285) in the sample was monitored online due to limited computation resource. The real-time monitored signal of the pixel’s grayscale is as shown in the plot “Group1S06_RT_Grayscale_Px_225_285.png”. The real-time measurement results are presented in “AllPointEstHeights_mean.png” and “AllPointEstHeights_zExposed_mean.png”.
