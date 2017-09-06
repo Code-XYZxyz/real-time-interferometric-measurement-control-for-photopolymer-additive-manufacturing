@@ -5,6 +5,8 @@ Related reference publications about the ECPL additive manufacturing system desi
 
 Demo videos of how to use the software, examples and corresponding metadata are provided in this repository’s folder of “Examples-Metadata”.
 
+The document “paper.pdf” contains: (1) the research application that is associated with the software; (2) details about the software design, functions, and flowchart; (3) implementation examples.
+
 References:
 1.	X. Zhao and D. Rosen, “Real-time Interferometric Monitoring and Measuring of photopolymerization based stereolithographic additive manufacturing process: sensor model and algorithm”, Measurement Science and Technology, Vol 28, Issue 1, 2016. doi:10.1088/0957-0233/28/1/015001. (http://dx.doi.org/10.1088/0957-0233/28/1/015001).
 2.	X. Zhao and D. Rosen, “A data mining approach of real-time process measurement for polymer additive manufacturing with the exposure controlled projection lithography”, Journal of Manufacturing Systems, Special Issue: Cybermanufacturing. doi:10.1016/j.jmsy.2017.01.005. (http://dx.doi.org/10.1016/j.jmsy.2017.01.005).
