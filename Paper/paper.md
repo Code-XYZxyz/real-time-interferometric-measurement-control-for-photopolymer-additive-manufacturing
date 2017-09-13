@@ -31,3 +31,5 @@ bibliography: paper.bib
 
 - The document “paper.pdf” contains: (1) the research application that is associated with the software; (2) details about the software design, functions, and flowchart; (3) implementation examples.
 
+# References
+- Please see the file "paper.bib"
